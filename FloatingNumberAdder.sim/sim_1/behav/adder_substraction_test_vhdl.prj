@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/MUX.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/zero_counter.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/shift_right.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/shift_left.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/comp_exp.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/comp.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/CLA.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/subnormals.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/Signout.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/selector.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/Round.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/normals.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/mux_mix_normal.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/mux_adder.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/mixed.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/demux_numbers_type.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/Adder.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/Special_cases.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/Vector.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/preadder.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/Block_norm.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/Block_Adder.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sources_1/new/adder_substraction.vhd"
+vhdl xil_defaultlib  "../../../FloatingNumberAdder.srcs/sim_1/new/adder_substraction_test.vhd"
+
+# Do not sort compile order
+nosort

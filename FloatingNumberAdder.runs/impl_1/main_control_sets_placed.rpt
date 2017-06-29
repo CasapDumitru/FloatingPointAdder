@@ -1,0 +1,103 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Sun May 21 17:03:13 2017
+| Host         : DESKTOP-PN6N5ON running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    39 |
+| Unused register locations in slices containing registers |   177 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             139 |           67 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              20 |            6 |
+| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | Yes                    |              96 |           26 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------------------------------------------+-----------------------------------------+-------------------------------+------------------+----------------+
+|                                 Clock Signal                                 |              Enable Signal              |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++------------------------------------------------------------------------------+-----------------------------------------+-------------------------------+------------------+----------------+
+|  adder_substraction_comp/special_cases_component/expS_reg[0]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/SS_reg/G0                   |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/expS_reg[1]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/expS_reg[2]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/expS_reg[3]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/expS_reg[4]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/expS_reg[5]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/expS_reg[6]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/expS_reg[7]/G0              |                                         |                               |                1 |              1 |
+|  adder_substraction_comp/special_cases_component/SS03_out                    |                                         |                               |                1 |              1 |
+|  Clk_IBUF_BUFG                                                               |                                         | bt_clr_IBUF                   |                1 |              1 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[6]                   | debounce_clear/AR[0]          |                1 |              4 |
+|  samp_ck                                                                     |                                         |                               |                1 |              4 |
+|  samp_ck                                                                     | keypad_component/CV1                    |                               |                1 |              4 |
+|  samp_ck                                                                     | keypad_component/CV2                    |                               |                1 |              4 |
+|  samp_ck                                                                     | keypad_component/CV3                    |                               |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[0]                   | debounce_clear/AR[0]          |                2 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[1]                   | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[3]                   | debounce_clear/AR[0]          |                1 |              4 |
+|  samp_ck                                                                     | keypad_component/CV4                    |                               |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][0]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][1]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][2]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][3]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][4]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][5]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][6]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[2]                   | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[7]                   | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/numberB_reg[31][7]     | debounce_clear/AR[0]          |                1 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[4]                   | debounce_clear/AR[0]          |                2 |              4 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/E[5]                   | debounce_clear/AR[0]          |                1 |              4 |
+|  adder_substraction_comp/special_cases_component/number_to_show_reg[15]_2[0] |                                         |                               |                2 |              5 |
+|  adder_substraction_comp/special_cases_component/number_to_show_reg[30][0]   |                                         |                               |                4 |              8 |
+|  Clk_IBUF_BUFG                                                               |                                         | seven_segment/Num[19]_i_1_n_0 |                5 |             19 |
+|  adder_substraction_comp/special_cases_component/mantS_reg[22]_i_2_n_0       |                                         |                               |                9 |             23 |
+|  Q_out_BUFG                                                                  |                                         |                               |               15 |             32 |
+|  Clk_IBUF_BUFG                                                               | debounce_hit_btn/digit_number_reg[0][0] | debounce_clear/AR[0]          |                8 |             32 |
+|  Clk_IBUF_BUFG                                                               |                                         |                               |               26 |             57 |
++------------------------------------------------------------------------------+-----------------------------------------+-------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    11 |
+| 4      |                    21 |
+| 5      |                     1 |
+| 8      |                     1 |
+| 16+    |                     5 |
++--------+-----------------------+
+
+

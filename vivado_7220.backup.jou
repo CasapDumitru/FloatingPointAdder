@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun May 21 01:24:08 2017
+# Process ID: 7220
+# Current directory: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7628 F:\University\UTCluj\An3\Semestrul2\SSC\Proiect\FloatingNumberAdder\FloatingNumberAdder.xpr
+# Log file: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/vivado.log
+# Journal file: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.xpr
+set_property source_mgmt_mode None [current_project]

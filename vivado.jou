@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun May 21 01:26:42 2017
+# Process ID: 8720
+# Current directory: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8496 F:\University\UTCluj\An3\Semestrul2\SSC\Proiect\FloatingNumberAdder\FloatingNumberAdder.xpr
+# Log file: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/vivado.log
+# Journal file: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source adder_substraction_test.tcl
+close_sim
+launch_simulation
+source adder_substraction_test.tcl
+close_sim
+launch_simulation
+source adder_substraction_test.tcl
+close_sim
+launch_simulation
+source adder_substraction_test.tcl
+close_sim

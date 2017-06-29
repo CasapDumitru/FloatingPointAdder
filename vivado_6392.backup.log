@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat May 20 17:10:02 2017
+# Process ID: 6392
+# Current directory: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5376 F:\University\UTCluj\An3\Semestrul2\SSC\Proiect\FloatingNumberAdder\FloatingNumberAdder.xpr
+# Log file: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/vivado.log
+# Journal file: F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Install/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 791.766 ; gain = 92.121
+create_bd_design "design_1"
+Wrote  : <F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd> 
+create_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 866.352 ; gain = 40.195
+generate_target all [get_files  F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd]
+Verilog Output written to : F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd> 
+Exporting to file F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+export_ip_user_files -of_objects [get_files F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd]
+export_simulation -of_objects [get_files F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/sim_scripts -ip_user_files_dir F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files -ipstatic_source_dir F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/modelsim} {questa=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/questa} {riviera=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/riviera} {activehdl=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+remove_files  F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd
+file delete -force F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/bd/design_1 F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/sim_scripts/design_1
+create_bd_design "design_1"
+Wrote  : <F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd> 
+create_bd_cell -type module -reference main main_0
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'Clk' as interface 'Clk'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'Clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+create_bd_cell: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 979.523 ; gain = 0.000
+update_compile_order -fileset sources_1
+generate_target all [get_files  F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd]
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/main_0/Clk
+
+ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd 
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+delete_bd_objs [get_bd_cells main_0]
+generate_target all [get_files  F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd]
+Verilog Output written to : F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+Exporting to file F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+export_ip_user_files -of_objects [get_files F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd]
+export_simulation -of_objects [get_files F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/sim_scripts -ip_user_files_dir F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files -ipstatic_source_dir F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/modelsim} {questa=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/questa} {riviera=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/riviera} {activehdl=F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference shift_left shift_left_0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+delete_bd_objs [get_bd_cells shift_left_0]
+remove_files  F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.srcs/sources_1/bd/design_1/design_1.bd
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+file delete -force F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/bd/design_1 F:/University/UTCluj/An3/Semestrul2/SSC/Proiect/FloatingNumberAdder/FloatingNumberAdder.ip_user_files/sim_scripts/design_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 20 19:26:28 2017...
